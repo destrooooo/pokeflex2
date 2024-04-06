@@ -1,3 +1,22 @@
+# You need to know one thing before reading this and trying the projetc
+
+This project was a school project created by 4 people. But they encountered a major bug that made their motivation disappear, even some people were more invested in the project than others.
+The bug encountered is in the API's retrieval of pokemon types. Indeed, the API documentation is not clear, it is impossible to understand which expression to use to retrieve the information.
+
+This bug prevents the application from functioning normally. in fact, the game consists of 2 people who compete like ping-pong, exchanging at each move a pokemon name comprising at least 1 type corresponding to the type of the previously mentioned pokemon.
+
+the first person to fail loses a life. The first person to lose 3 lives loses the game.
+
+Most game files are commented to explain the code.
+
+If this project was not able to see the light of day it is surely due to a lack of involvement of certain people and the encounter of a bug which discouraged those most invested.
+
+Be free to take the project or concept to make it your own
+
+Liste_PKMN_FR_EN is a database we wanted to use to transform french inputs into english ones for the API to make the game suitable for both languages
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -39,32 +58,3 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

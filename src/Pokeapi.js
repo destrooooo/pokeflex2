@@ -1,8 +1,7 @@
 import React, { Component } from "react";
-
 class Pokeapi extends Component {
   state = {
-    data: [],
+    data: { types: [{}] },
   };
 
   // Code is called after the component is mounted/inserted into the DOM.
@@ -23,32 +22,35 @@ class Pokeapi extends Component {
   render() {
     const { data } = this.state;
     // Forced to use ? because not all fields contain sprites
+    
     console.log(data.sprites?.front_default);
 
+    // first type class and second type class are commented bcs we cannot find a solution to make the code working 
     return (
-      <ul>
-        <li>
-          <h3>Id</h3>
-          <h3>{data.id}</h3>
-        </li>
-        <li>
-          <h3>Name</h3>
-          <h3>{data.name}</h3>
-        </li>
-        <li>
-          <img src={data.sprites?.front_default} />
-        </li>
-        <li>
-          <h3>1st type</h3>
-          <h3>{data.types[0].type.name}</h3>
-        </li>
-        <li>
-          <h3>1st type</h3>
-          <h3>{data.types[1].type.name}</h3>
-        </li>
-      </ul>
+     
+      <div class="previous_pokemon_container">
+      <div class="pokemon-sprite-container">
+        <img
+           class="pokemon_sprite"
+            src={data.sprites?.front_default}
+            alt="Infernape"
+            />
+      </div>
+      <div class="pokemon_name">
+        {data.name}
+      </div>
+      {/* <div class="first_[0]type">
+          <h3>{data.types.type}</h3>
+      </div>
+      <div class="second_type">
+          <h3>{data.types.[1]type}</h3>
+      </div> */}
+      <div class="pokemon_number_id">#{data.id}</div>
+      </div>
     );
   }
 }
+
+
 
 export default Pokeapi;
