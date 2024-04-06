@@ -25,7 +25,7 @@ class Pokeapi extends Component {
     
     console.log(data.sprites?.front_default);
 
-    // first type class and second type class are commented bcs we cannot find a solution to make the code working 
+    // first type div and second type div are commented bcs we cannot find a solution to make the code working 
     return (
      
       <div class="previous_pokemon_container">
